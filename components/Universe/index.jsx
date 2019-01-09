@@ -23,7 +23,13 @@ class Universe extends Component {
       >
         <g className='nodes'>
           {
-            nodes.map(node => <Node data={node} />)
+            nodes.map(node =>
+              <Node
+                data={node}
+                onClick={this.props.onClick}
+                onDoubleClick={this.props.onDoubleClick}
+              />
+            )
           }
         </g>
         <g className='links' />

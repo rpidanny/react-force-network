@@ -66,7 +66,7 @@ class NetworkGraph extends Component {
         transform: event.transform
       })
     })
-    zoomHandler(svg)
+    svg.call(zoomHandler).on('dblclick.zoom', null)
   }
 
   updateSimulation () {
@@ -122,6 +122,8 @@ class NetworkGraph extends Component {
             transform={
               `translate(${transform.x},${transform.y}) scale(${transform.k})`
             }
+            onClick={this.props.onClick}
+            onDoubleClick={this.props.onDoubleClick}
           />
         </svg>
         <span className='zoomIndicator'>{parseInt(transform.k * 100, 10)} %</span>
@@ -137,7 +139,9 @@ NetworkGraph.defaultProps = {
 
 NetworkGraph.propTypes = {
   nodes: PropTypes.array,
-  links: PropTypes.array
+  links: PropTypes.array,
+  onClick: PropTypes.func,
+  onDoubleClick: PropTypes.func
 }
 
 export default NetworkGraph
