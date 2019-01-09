@@ -23,16 +23,28 @@ class Node extends Component {
 }
 
 const getThumbnail = (props) => {
-  const { img, radius } = props.data
+  const { id, img, radius } = props.data
   if (img) {
     return (
-      <image
-        xlinkHref={img}
-        // clip-path="url(#thumbnailClip_656)"
-        x={-radius}
-        y={-radius}
-        width={radius * 2}
-      />
+      <g>
+        <defs>
+          <clipPath
+            id={`clip_${id}`}
+          >
+            <circle
+              r={radius}
+              fill='#fff'
+            />
+          </clipPath>
+        </defs>
+        <image
+          xlinkHref={img}
+          clipPath={`url(#clip_${id})`}
+          x={-radius}
+          y={-radius}
+          width={radius * 2}
+        />
+      </g>
     )
   }
 }
