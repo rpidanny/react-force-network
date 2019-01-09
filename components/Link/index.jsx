@@ -24,9 +24,6 @@ class Link extends Component {
                 opacity: 1
               }} />
           </marker>
-          {/* <marker id='endTransparent' viewBox='0 -5 10 10' refX='37' refY='0' markerWidth='6' markerHeight='6' orient='auto'>
-            <path d='M0,-5L10,0L0,5' fill='#666' style='opacity: 0.1;' />
-          </marker> */}
         </defs>
         <path
           id={id}
