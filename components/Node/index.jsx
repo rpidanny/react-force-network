@@ -29,6 +29,8 @@ const getThumbnail = (props) => {
       <image
         xlinkHref={img}
         // clip-path="url(#thumbnailClip_656)"
+        x={-radius}
+        y={-radius}
         width={radius * 2}
       />
     )
