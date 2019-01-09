@@ -101,7 +101,7 @@ class NetworkGraph extends Component {
       .force(
         'collision',
         forceCollide()
-          .radius(node => 45)
+          .radius(node => node.radius + 15)
           .strength(0.7)
       )
 
