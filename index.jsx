@@ -18,7 +18,7 @@ class NetworkGraph extends Component {
     this.state = {
       nodes: [],
       links: [],
-      simulation: null,
+      simulation: this.initSimulation(),
       width: 100,
       height: 100,
       transform: {
@@ -28,6 +28,7 @@ class NetworkGraph extends Component {
       }
     }
     this.initSimulation = this.initSimulation.bind(this)
+    this.initZoomHandler = this.initZoomHandler.bind(this)
     this.updateSimulation = this.updateSimulation.bind(this)
     this.onTick = this.onTick.bind(this)
     this.svg = React.createRef()
@@ -36,7 +37,7 @@ class NetworkGraph extends Component {
   }
 
   componentDidMount () {
-    this.initSimulation()
+    this.initZoomHandler()
     this.setState({
       ...this.props,
       width: this.svg.current.clientWidth,
@@ -47,13 +48,16 @@ class NetworkGraph extends Component {
   }
 
   initSimulation () {
-    // const svg = select('.networkGraph')
     const linkForce = forceLink()
       .id(link => link.id)
       .strength(link => link.strength)
       .distance(link => link.distance)
     const simulation = forceSimulation().force('link', linkForce)
 
+    return simulation
+  }
+
+  initZoomHandler () {
     // TODO: replace select dependency
     // add zoom capabilities
     const svg = select('.svgGraph')
@@ -63,10 +67,6 @@ class NetworkGraph extends Component {
       })
     })
     zoomHandler(svg)
-
-    this.setState({
-      simulation
-    })
   }
 
   updateSimulation () {
