@@ -23,7 +23,7 @@ class Node extends Component {
 }
 
 const getThumbnail = (props) => {
-  const { id, img, radius } = props.data
+  const { id, img, radius, shortText, textStyle } = props.data
   if (img) {
     return (
       <g>
@@ -45,6 +45,16 @@ const getThumbnail = (props) => {
           width={radius * 2}
         />
       </g>
+    )
+  } else {
+    return (
+      <text
+        dx={-radius / 2}
+        dy={textStyle.fontSize / 2}
+        style={textStyle}
+      >
+        {shortText}
+      </text>
     )
   }
 }
