@@ -97,7 +97,7 @@ class NetworkGraph extends Component {
     simulation
       .force('center', forceCenter(width / 2, height / 2))
       .force('attraceForce', forceManyBody().strength(10))
-      .force('charge', forceManyBody().strength(-10))
+      .force('charge', forceManyBody().strength(-30))
       .force(
         'collision',
         forceCollide()
