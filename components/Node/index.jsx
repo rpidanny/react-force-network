@@ -32,7 +32,7 @@ const getThumbnail = (props) => {
             id={`clip_${id}`}
           >
             <circle
-              r={radius}
+              r={radius - 1}
               fill='#fff'
             />
           </clipPath>
