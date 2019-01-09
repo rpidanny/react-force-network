@@ -72,11 +72,28 @@ class NetworkGraph extends Component {
   updateSimulation () {
     const { nodes, links, simulation, width, height } = this.state
     this.nodes = nodes
-    this.links = links
+    this.links = []
+
+    // bind nodes to links
+    links.forEach(link => {
+      const sourceNode = this.nodes.filter(
+        node => node.id === link.source
+      )[0]
+      const targetNode = this.nodes.filter(
+        node => node.id === link.target
+      )[0]
+      if (sourceNode && targetNode) {
+        this.links.push({
+          ...link,
+          source: sourceNode,
+          target: targetNode
+        })
+      }
+    })
     simulation
       .nodes(this.nodes)
       .on('tick', this.onTick)
-    // simulation.force('link').links(this.links)
+    simulation.force('link').links(this.links)
     simulation
       .force('center', forceCenter(width / 2, height / 2))
       .force('attraceForce', forceManyBody().strength(10))
@@ -100,13 +117,13 @@ class NetworkGraph extends Component {
 
   onTick (e) {
     this.setState({
-      nodes: this.nodes
+      nodes: this.nodes,
+      links: this.links
     })
   }
 
   render () {
-    const { nodes, transform } = this.state
-
+    const { nodes, links, transform } = this.state
     return (
       <div
         className='networkGraph'
@@ -119,6 +136,7 @@ class NetworkGraph extends Component {
         >
           <Universe
             nodes={nodes}
+            links={links}
             transform={
               `translate(${transform.x},${transform.y}) scale(${transform.k})`
             }

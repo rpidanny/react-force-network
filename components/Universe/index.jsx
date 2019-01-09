@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import Node from '../Node'
+import Link from '../Link'
 
 class Universe extends Component {
   constructor (props) {
@@ -15,7 +16,7 @@ class Universe extends Component {
   }
 
   render () {
-    const { nodes } = this.state
+    const { nodes, links } = this.state
     return (
       <g
         className={this.props.className}
@@ -32,7 +33,15 @@ class Universe extends Component {
             )
           }
         </g>
-        <g className='links' />
+        <g className='links'>
+          {
+            links.map(link =>
+              <Link
+                data={link}
+              />
+            )
+          }
+        </g>
       </g>
     )
   }
