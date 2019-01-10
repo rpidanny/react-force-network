@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import './style.css'
+// import './style.css'
 
 class Node extends Component {
   constructor () {
@@ -46,6 +46,9 @@ class Node extends Component {
         className={this.props.className}
         transform={`translate(${x},${y})`}
         onClick={this.clickHandler}
+        style={{
+          cursor: 'pointer'
+        }}
       >
         <circle
           r={radius}

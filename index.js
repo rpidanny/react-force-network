@@ -10,7 +10,7 @@ import {
 } from 'd3-force'
 import { zoom } from 'd3-zoom'
 import Universe from './components/Universe'
-import './style.css'
+// import './style.css'
 
 class NetworkGraph extends Component {
   constructor (props) {
@@ -127,6 +127,10 @@ class NetworkGraph extends Component {
     return (
       <div
         className='networkGraph'
+        style={{
+          height: '100%',
+          width: '100%'
+        }}
       >
         <svg
           className='svgGraph'

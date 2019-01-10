@@ -1,0 +1,60 @@
+{
+  "name": "react-network-graph",
+  "version": "0.0.1",
+  "description": "React Network Graph Component",
+  "main": "index.jsx",
+  "scripts": {
+    "start": "webpack-dev-server --progress --inline",
+    "build": "npx webpack --config webpack.config.js",
+    "test": "jest",
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpidanny/NetworkGraph.git"
+  },
+  "author": "Abhishek Maharjan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rpidanny/NetworkGraph/issues"
+  },
+  "homepage": "https://github.com/rpidanny/NetworkGraph#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-import": "^1.11.0",
+    "css-loader": "^2.1.0",
+    "flow-bin": "^0.89.0",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^4.6.0",
+    "jest": "^24.0.0-alpha.9",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-hot-loader": "^4.6.3",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "moduleDirectories": [
+      "node_modules",
+      "./"
+    ],
+    "collectCoverageFrom": [
+      "*.{js,jsx}",
+      "!<rootDir>/webpack.config.js"
+    ],
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
