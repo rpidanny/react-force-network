@@ -1,0 +1,2664 @@
+{
+  "nodes": [
+    {
+      "id": "998",
+      "text": "The Millionaire Next Door: The Surprising Secrets of America's Wealthy",
+      "type": "BOOK",
+      "img": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "TMN",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "11125",
+      "text": "Digital Fortress",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1360095966m/11125.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "DF",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "1022022",
+      "text": "Freakonomics: A Rogue Economist Explores the Hidden Side of Everything",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1356025048m/1022022.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "FAR",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "2294277",
+      "text": "Just for Fun: The Story of an Accidental Revolutionary",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1328006418m/2294277.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "JFF",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "2998152",
+      "text": "JavaScript: The Good Parts",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1328834793m/2998152.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "JTG",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "7963278",
+      "text": "How I Killed Pluto and Why It Had It Coming",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1320532443m/7963278.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "HIK",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "9969571",
+      "text": "Ready Player One (Ready Player One, #1)",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1500930947m/9969571.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "RPO",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "10144145",
+      "text": "Rich Dad Poor Dad: What The Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1328736124m/10144145.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "RDP",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "11797471",
+      "text": "The Idea Factory: Bell Labs and the Great Age of American Innovation",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1338504885m/11797471.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "TIF",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "13259270",
+      "text": "Free Will",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1532072045m/13259270.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "FW",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "17563539",
+      "text": "The Egg",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1431492647m/17563539.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "TE",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "18007564",
+      "text": "The Martian",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1413706054m/18007564.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "TM",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "18050143",
+      "text": "Zero to One: Notes on Startups, or How to Build the Future",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1414347376m/18050143.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "ZTO",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "18213403",
+      "text": "No Place to Hide: Edward Snowden, the NSA, and the U.S. Surveillance State",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1383352779m/18213403.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "NPT",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "18295861",
+      "text": "The First Fifteen Lives of Harry August",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1379133081m/18295861.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "TFF",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "20910174",
+      "text": "Smartcuts: How Hackers, Innovators, and Icons Accelerate Success",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1405868185m/20910174.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "SHH",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "23346740",
+      "text": "Sapiens: A Brief History of Humankind",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1427068429m/23346740.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "SAB",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "25135194",
+      "text": "Prisoners of Geography: Ten Maps That Tell You Everything You Need to Know About Global Politics",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1432827094m/25135194.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "POG",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "25516595",
+      "text": "Thinking, Fast and Slow",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1431276290m/25516595.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "TFA",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "26245868",
+      "text": "How Google Works",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1481060659m/26245868.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "HGW",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "28257707",
+      "text": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1465761302m/28257707.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "TSA",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "37707396",
+      "text": "Artemis",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1514317976m/37707396.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "A",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "42950805",
+      "text": "Homo Deus: A Brief History of Tomorrow",
+      "type": "BOOK",
+      "img": "https://images.gr-assets.com/books/1543157430m/42950805.jpg",
+      "color": "#336B87",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#375E97",
+        "strokeWidth": "3px"
+      },
+      "shortText": "HDA",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "600",
+      "text": "Robert T. Kiyosaki",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1236463010p5/600.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "RTK",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "630",
+      "text": "Dan Brown",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1399396714p5/630.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "DB",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "659",
+      "text": "Thomas J. Stanley",
+      "type": "AUTHOR",
+      "img": "https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "TJS",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "798",
+      "text": "Steven D. Levitt",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1215370905p5/798.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "SDL",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "16593",
+      "text": "Sam Harris",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1274184541p5/16593.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "SH",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "31712",
+      "text": "Ernest Cline",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1310753539p5/31712.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "EC",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "72401",
+      "text": "Daniel Kahneman",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1227145976p5/72401.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "DK",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "92867",
+      "text": "Linus Torvalds",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1308057205p5/92867.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "LT",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "205996",
+      "text": "Glenn Greenwald",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1371508181p5/205996.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "GG",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "234214",
+      "text": "Mike Brown",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1291870808p5/234214.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "MB",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "395812",
+      "text": "Yuval Noah Harari",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1546235045p5/395812.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "YNH",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "713466",
+      "text": "Tim Marshall",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1489696759p5/713466.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "TM",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "1290380",
+      "text": "Douglas Crockford",
+      "type": "AUTHOR",
+      "img": "https://s.gr-assets.com/assets/nophoto/user/m_200x266-d279b33f8eec0f27b7272477f09806be.png",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "DC",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "3887089",
+      "text": "Eric Schmidt",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1456105735p5/3887089.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "ES",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "5808423",
+      "text": "Jon Gertner",
+      "type": "AUTHOR",
+      "img": "https://s.gr-assets.com/assets/nophoto/user/m_200x266-d279b33f8eec0f27b7272477f09806be.png",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "JG",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "6540057",
+      "text": "Andy Weir",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1382592903p5/6540057.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "AW",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "7210024",
+      "text": "Claire North",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1440105009p5/7210024.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "CN",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "7567448",
+      "text": "Shane Snow",
+      "type": "AUTHOR",
+      "img": "https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "SS",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "8474721",
+      "text": "Peter Thiel",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1532597901p5/8474721.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "PT",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "8529755",
+      "text": "Mark Manson",
+      "type": "AUTHOR",
+      "img": "https://images.gr-assets.com/authors/1410365708p5/8529755.jpg",
+      "color": "#FB6542",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#FB6542",
+        "strokeWidth": "3px"
+      },
+      "shortText": "MM",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Yahoo Press",
+      "text": "Yahoo Press",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "YP",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Elliott & Thompson",
+      "text": "Elliott & Thompson",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "E&T",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Andy Weir / Galactanet",
+      "text": "Andy Weir / Galactanet",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "AW/",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Free Press",
+      "text": "Free Press",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "FP",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "William Morrow Paperbacks",
+      "text": "William Morrow Paperbacks",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "WMP",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Vintage",
+      "text": "Vintage",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "V",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Spiegel & Grau",
+      "text": "Spiegel & Grau",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "S&G",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Grand Central Publishing",
+      "text": "Grand Central Publishing",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "GCP",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Penguin Books",
+      "text": "Penguin Books",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "PB",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Redhook",
+      "text": "Redhook",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "R",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Texere Publishing",
+      "text": "Texere Publishing",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "TP",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Penguin Press",
+      "text": "Penguin Press",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "PP",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Crown Business",
+      "text": "Crown Business",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "CB",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Metropolitan Books/Henry Holt (NY)",
+      "text": "Metropolitan Books/Henry Holt (NY)",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "MBH",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Gallery Books",
+      "text": "Gallery Books",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "GB",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Corgi books",
+      "text": "Corgi books",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "CB",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Crown Publishers",
+      "text": "Crown Publishers",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "CP",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "HarperBusiness",
+      "text": "HarperBusiness",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "H",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Crown Archtype",
+      "text": "Crown Archtype",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "CA",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Crown",
+      "text": "Crown",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "C",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Plata Publishing",
+      "text": "Plata Publishing",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "PP",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    },
+    {
+      "id": "Harper",
+      "text": "Harper",
+      "type": "PUBLISHER",
+      "color": "#DDA487",
+      "radius": 35,
+      "style": {
+        "r": 35,
+        "stroke": "#7D4427",
+        "strokeWidth": "3px"
+      },
+      "shortText": "H",
+      "textStyle": {
+        "fontSize": 15,
+        "fill": "#fff",
+        "strokeWidth": "2px",
+        "fontWeight": "normal"
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "1290380",
+      "sourceType": "AUTHOR",
+      "target": "2998152",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2008",
+        "publicationMonth": "5",
+        "publicationDay": "1"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "1290380-AUTHOR_OF-2998152",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "2998152",
+      "sourceType": "BOOK",
+      "target": "Yahoo Press",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2008",
+        "publicationMonth": "5",
+        "publicationDay": "1"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "2998152-PUBLISHED_BY-Yahoo Press",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "1290380",
+      "sourceType": "AUTHOR",
+      "target": "Yahoo Press",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2008",
+        "publicationMonth": "5",
+        "publicationDay": "1"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "1290380-WORKS_WITH-Yahoo Press",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "713466",
+      "sourceType": "AUTHOR",
+      "target": "25135194",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2015",
+        "publicationMonth": "7",
+        "publicationDay": "9"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "713466-AUTHOR_OF-25135194",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "25135194",
+      "sourceType": "BOOK",
+      "target": "Elliott & Thompson",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2015",
+        "publicationMonth": "7",
+        "publicationDay": "9"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "25135194-PUBLISHED_BY-Elliott & Thompson",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "713466",
+      "sourceType": "AUTHOR",
+      "target": "Elliott & Thompson",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2015",
+        "publicationMonth": "7",
+        "publicationDay": "9"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "713466-WORKS_WITH-Elliott & Thompson",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "6540057",
+      "sourceType": "AUTHOR",
+      "target": "17563539",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2009",
+        "publicationMonth": "8",
+        "publicationDay": "15"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "6540057-AUTHOR_OF-17563539",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "17563539",
+      "sourceType": "BOOK",
+      "target": "Andy Weir / Galactanet",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2009",
+        "publicationMonth": "8",
+        "publicationDay": "15"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "17563539-PUBLISHED_BY-Andy Weir / Galactanet",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "6540057",
+      "sourceType": "AUTHOR",
+      "target": "Andy Weir / Galactanet",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2009",
+        "publicationMonth": "8",
+        "publicationDay": "15"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "6540057-WORKS_WITH-Andy Weir / Galactanet",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "16593",
+      "sourceType": "AUTHOR",
+      "target": "13259270",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2012",
+        "publicationMonth": "3",
+        "publicationDay": "6"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "16593-AUTHOR_OF-13259270",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "13259270",
+      "sourceType": "BOOK",
+      "target": "Free Press",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2012",
+        "publicationMonth": "3",
+        "publicationDay": "6"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "13259270-PUBLISHED_BY-Free Press",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "16593",
+      "sourceType": "AUTHOR",
+      "target": "Free Press",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2012",
+        "publicationMonth": "3",
+        "publicationDay": "6"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "16593-WORKS_WITH-Free Press",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "798",
+      "sourceType": "AUTHOR",
+      "target": "1022022",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2009",
+        "publicationMonth": "8",
+        "publicationDay": "25"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "798-AUTHOR_OF-1022022",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "1022022",
+      "sourceType": "BOOK",
+      "target": "William Morrow Paperbacks",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2009",
+        "publicationMonth": "8",
+        "publicationDay": "25"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "1022022-PUBLISHED_BY-William Morrow Paperbacks",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "798",
+      "sourceType": "AUTHOR",
+      "target": "William Morrow Paperbacks",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2009",
+        "publicationMonth": "8",
+        "publicationDay": "25"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "798-WORKS_WITH-William Morrow Paperbacks",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "395812",
+      "sourceType": "AUTHOR",
+      "target": "42950805",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2017",
+        "publicationMonth": {},
+        "publicationDay": {}
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "395812-AUTHOR_OF-42950805",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "42950805",
+      "sourceType": "BOOK",
+      "target": "Vintage",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2017",
+        "publicationMonth": {},
+        "publicationDay": {}
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "42950805-PUBLISHED_BY-Vintage",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "395812",
+      "sourceType": "AUTHOR",
+      "target": "Vintage",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2017",
+        "publicationMonth": {},
+        "publicationDay": {}
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "395812-WORKS_WITH-Vintage",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "234214",
+      "sourceType": "AUTHOR",
+      "target": "7963278",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2010",
+        "publicationMonth": "12",
+        "publicationDay": "7"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "234214-AUTHOR_OF-7963278",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "7963278",
+      "sourceType": "BOOK",
+      "target": "Spiegel & Grau",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2010",
+        "publicationMonth": "12",
+        "publicationDay": "7"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "7963278-PUBLISHED_BY-Spiegel & Grau",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "234214",
+      "sourceType": "AUTHOR",
+      "target": "Spiegel & Grau",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2010",
+        "publicationMonth": "12",
+        "publicationDay": "7"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "234214-WORKS_WITH-Spiegel & Grau",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "3887089",
+      "sourceType": "AUTHOR",
+      "target": "26245868",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2017",
+        "publicationMonth": "3",
+        "publicationDay": "21"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "3887089-AUTHOR_OF-26245868",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "26245868",
+      "sourceType": "BOOK",
+      "target": "Grand Central Publishing",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2017",
+        "publicationMonth": "3",
+        "publicationDay": "21"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "26245868-PUBLISHED_BY-Grand Central Publishing",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "3887089",
+      "sourceType": "AUTHOR",
+      "target": "Grand Central Publishing",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2017",
+        "publicationMonth": "3",
+        "publicationDay": "21"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "3887089-WORKS_WITH-Grand Central Publishing",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "72401",
+      "sourceType": "AUTHOR",
+      "target": "25516595",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2012",
+        "publicationMonth": {},
+        "publicationDay": {}
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "72401-AUTHOR_OF-25516595",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "25516595",
+      "sourceType": "BOOK",
+      "target": "Penguin Books",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2012",
+        "publicationMonth": {},
+        "publicationDay": {}
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "25516595-PUBLISHED_BY-Penguin Books",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "72401",
+      "sourceType": "AUTHOR",
+      "target": "Penguin Books",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2012",
+        "publicationMonth": {},
+        "publicationDay": {}
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "72401-WORKS_WITH-Penguin Books",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "7210024",
+      "sourceType": "AUTHOR",
+      "target": "18295861",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2014",
+        "publicationMonth": "4",
+        "publicationDay": "8"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "7210024-AUTHOR_OF-18295861",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "18295861",
+      "sourceType": "BOOK",
+      "target": "Redhook",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2014",
+        "publicationMonth": "4",
+        "publicationDay": "8"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "18295861-PUBLISHED_BY-Redhook",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "7210024",
+      "sourceType": "AUTHOR",
+      "target": "Redhook",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2014",
+        "publicationMonth": "4",
+        "publicationDay": "8"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "7210024-WORKS_WITH-Redhook",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "92867",
+      "sourceType": "AUTHOR",
+      "target": "2294277",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2001",
+        "publicationMonth": "6",
+        "publicationDay": "1"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "92867-AUTHOR_OF-2294277",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "2294277",
+      "sourceType": "BOOK",
+      "target": "Texere Publishing",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2001",
+        "publicationMonth": "6",
+        "publicationDay": "1"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "2294277-PUBLISHED_BY-Texere Publishing",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "92867",
+      "sourceType": "AUTHOR",
+      "target": "Texere Publishing",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2001",
+        "publicationMonth": "6",
+        "publicationDay": "1"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "92867-WORKS_WITH-Texere Publishing",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "395812",
+      "sourceType": "AUTHOR",
+      "target": "23346740",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2015",
+        "publicationMonth": "4",
+        "publicationDay": "30"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "395812-AUTHOR_OF-23346740",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "23346740",
+      "sourceType": "BOOK",
+      "target": "Vintage",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2015",
+        "publicationMonth": "4",
+        "publicationDay": "30"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "23346740-PUBLISHED_BY-Vintage",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "395812",
+      "sourceType": "AUTHOR",
+      "target": "Vintage",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2015",
+        "publicationMonth": "4",
+        "publicationDay": "30"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "395812-WORKS_WITH-Vintage",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "5808423",
+      "sourceType": "AUTHOR",
+      "target": "11797471",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2012",
+        "publicationMonth": "3",
+        "publicationDay": "15"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "5808423-AUTHOR_OF-11797471",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "11797471",
+      "sourceType": "BOOK",
+      "target": "Penguin Press",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2012",
+        "publicationMonth": "3",
+        "publicationDay": "15"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "11797471-PUBLISHED_BY-Penguin Press",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "5808423",
+      "sourceType": "AUTHOR",
+      "target": "Penguin Press",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2012",
+        "publicationMonth": "3",
+        "publicationDay": "15"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "5808423-WORKS_WITH-Penguin Press",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "8474721",
+      "sourceType": "AUTHOR",
+      "target": "18050143",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2014",
+        "publicationMonth": "9",
+        "publicationDay": "16"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "8474721-AUTHOR_OF-18050143",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "18050143",
+      "sourceType": "BOOK",
+      "target": "Crown Business",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2014",
+        "publicationMonth": "9",
+        "publicationDay": "16"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "18050143-PUBLISHED_BY-Crown Business",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "8474721",
+      "sourceType": "AUTHOR",
+      "target": "Crown Business",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2014",
+        "publicationMonth": "9",
+        "publicationDay": "16"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "8474721-WORKS_WITH-Crown Business",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "205996",
+      "sourceType": "AUTHOR",
+      "target": "18213403",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2014",
+        "publicationMonth": "5",
+        "publicationDay": "13"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "205996-AUTHOR_OF-18213403",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "18213403",
+      "sourceType": "BOOK",
+      "target": "Metropolitan Books/Henry Holt (NY)",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2014",
+        "publicationMonth": "5",
+        "publicationDay": "13"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "18213403-PUBLISHED_BY-Metropolitan Books/Henry Holt (NY)",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "205996",
+      "sourceType": "AUTHOR",
+      "target": "Metropolitan Books/Henry Holt (NY)",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2014",
+        "publicationMonth": "5",
+        "publicationDay": "13"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "205996-WORKS_WITH-Metropolitan Books/Henry Holt (NY)",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "659",
+      "sourceType": "AUTHOR",
+      "target": "998",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "1998",
+        "publicationMonth": "10",
+        "publicationDay": "1"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "659-AUTHOR_OF-998",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "998",
+      "sourceType": "BOOK",
+      "target": "Gallery Books",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "1998",
+        "publicationMonth": "10",
+        "publicationDay": "1"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "998-PUBLISHED_BY-Gallery Books",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "659",
+      "sourceType": "AUTHOR",
+      "target": "Gallery Books",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "1998",
+        "publicationMonth": "10",
+        "publicationDay": "1"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "659-WORKS_WITH-Gallery Books",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "630",
+      "sourceType": "AUTHOR",
+      "target": "11125",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2004",
+        "publicationMonth": {},
+        "publicationDay": {}
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "630-AUTHOR_OF-11125",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "11125",
+      "sourceType": "BOOK",
+      "target": "Corgi books",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2004",
+        "publicationMonth": {},
+        "publicationDay": {}
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "11125-PUBLISHED_BY-Corgi books",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "630",
+      "sourceType": "AUTHOR",
+      "target": "Corgi books",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2004",
+        "publicationMonth": {},
+        "publicationDay": {}
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "630-WORKS_WITH-Corgi books",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "31712",
+      "sourceType": "AUTHOR",
+      "target": "9969571",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2011",
+        "publicationMonth": "8",
+        "publicationDay": "16"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "31712-AUTHOR_OF-9969571",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "9969571",
+      "sourceType": "BOOK",
+      "target": "Crown Publishers",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2011",
+        "publicationMonth": "8",
+        "publicationDay": "16"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "9969571-PUBLISHED_BY-Crown Publishers",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "31712",
+      "sourceType": "AUTHOR",
+      "target": "Crown Publishers",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2011",
+        "publicationMonth": "8",
+        "publicationDay": "16"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "31712-WORKS_WITH-Crown Publishers",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "7567448",
+      "sourceType": "AUTHOR",
+      "target": "20910174",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2014",
+        "publicationMonth": "9",
+        "publicationDay": "9"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "7567448-AUTHOR_OF-20910174",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "20910174",
+      "sourceType": "BOOK",
+      "target": "HarperBusiness",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2014",
+        "publicationMonth": "9",
+        "publicationDay": "9"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "20910174-PUBLISHED_BY-HarperBusiness",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "7567448",
+      "sourceType": "AUTHOR",
+      "target": "HarperBusiness",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2014",
+        "publicationMonth": "9",
+        "publicationDay": "9"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "7567448-WORKS_WITH-HarperBusiness",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "6540057",
+      "sourceType": "AUTHOR",
+      "target": "37707396",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2017",
+        "publicationMonth": "11",
+        "publicationDay": "14"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "6540057-AUTHOR_OF-37707396",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "37707396",
+      "sourceType": "BOOK",
+      "target": "Crown Archtype",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2017",
+        "publicationMonth": "11",
+        "publicationDay": "14"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "37707396-PUBLISHED_BY-Crown Archtype",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "6540057",
+      "sourceType": "AUTHOR",
+      "target": "Crown Archtype",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2017",
+        "publicationMonth": "11",
+        "publicationDay": "14"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "6540057-WORKS_WITH-Crown Archtype",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "6540057",
+      "sourceType": "AUTHOR",
+      "target": "18007564",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2014",
+        "publicationMonth": "2",
+        "publicationDay": "11"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "6540057-AUTHOR_OF-18007564",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "18007564",
+      "sourceType": "BOOK",
+      "target": "Crown",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2014",
+        "publicationMonth": "2",
+        "publicationDay": "11"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "18007564-PUBLISHED_BY-Crown",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "6540057",
+      "sourceType": "AUTHOR",
+      "target": "Crown",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2014",
+        "publicationMonth": "2",
+        "publicationDay": "11"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "6540057-WORKS_WITH-Crown",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "600",
+      "sourceType": "AUTHOR",
+      "target": "10144145",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2011",
+        "publicationMonth": "8",
+        "publicationDay": "16"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "600-AUTHOR_OF-10144145",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "10144145",
+      "sourceType": "BOOK",
+      "target": "Plata Publishing",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2011",
+        "publicationMonth": "8",
+        "publicationDay": "16"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "10144145-PUBLISHED_BY-Plata Publishing",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "600",
+      "sourceType": "AUTHOR",
+      "target": "Plata Publishing",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2011",
+        "publicationMonth": "8",
+        "publicationDay": "16"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "600-WORKS_WITH-Plata Publishing",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "8529755",
+      "sourceType": "AUTHOR",
+      "target": "28257707",
+      "targetType": "BOOK",
+      "type": "AUTHOR_OF",
+      "property": {
+        "publicationYear": "2016",
+        "publicationMonth": "9",
+        "publicationDay": "13"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "8529755-AUTHOR_OF-28257707",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "28257707",
+      "sourceType": "BOOK",
+      "target": "Harper",
+      "targetType": "PUBLISHER",
+      "type": "PUBLISHED_BY",
+      "property": {
+        "publicationYear": "2016",
+        "publicationMonth": "9",
+        "publicationDay": "13"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "28257707-PUBLISHED_BY-Harper",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    },
+    {
+      "source": "8529755",
+      "sourceType": "AUTHOR",
+      "target": "Harper",
+      "targetType": "PUBLISHER",
+      "type": "WORKS_WITH",
+      "property": {
+        "publicationYear": "2016",
+        "publicationMonth": "9",
+        "publicationDay": "13"
+      },
+      "strength": 0.4,
+      "distance": 450,
+      "id": "8529755-WORKS_WITH-Harper",
+      "style": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "rgba(50, 50, 50, 0.2)"
+      }
+    }
+  ]
+}
