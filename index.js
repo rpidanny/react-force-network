@@ -70,7 +70,21 @@ class NetworkGraph extends Component {
   }
 
   updateSimulation () {
-    const { nodes, links, simulation, width, height } = this.state
+    const {
+      nodes,
+      links,
+      simulation,
+      width,
+      height,
+      attraceForceStrength,
+      chargeStrength,
+      collisionRadiusOffset,
+      collisionStrength,
+      animation,
+      velocityDecay,
+      alphaStart
+    } = this.state
+
     this.nodes = nodes
     this.links = []
 
@@ -96,23 +110,26 @@ class NetworkGraph extends Component {
     simulation.force('link').links(this.links)
     simulation
       .force('center', forceCenter(width / 2, height / 2))
-      .force('attraceForce', forceManyBody().strength(10))
-      .force('charge', forceManyBody().strength(-200))
+      .force('attraceForce', forceManyBody().strength(attraceForceStrength))
+      .force('charge', forceManyBody().strength(chargeStrength))
       .force(
         'collision',
         forceCollide()
-          .radius(node => node.radius + 15)
-          .strength(1)
+          .radius(node => node.radius + collisionRadiusOffset)
+          .strength(collisionStrength)
       )
 
     simulation
-      .alpha(1)
+      .alpha(alphaStart)
       .alphaTarget(0)
-      .velocityDecay(0.1)
+      .velocityDecay(velocityDecay)
       .restart()
-    // while (simulation.alpha() >= 0.2) {
-    //   simulation.tick()
-    // }
+
+    if (!animation) {
+      while (simulation.alpha() >= 0.02) {
+        simulation.tick()
+      }
+    }
   }
 
   onTick (e) {
@@ -156,12 +173,28 @@ class NetworkGraph extends Component {
 
 NetworkGraph.defaultProps = {
   nodes: [],
-  links: []
+  links: [],
+  attraceForceStrength: 10,
+  chargeStrength: -10,
+  collisionRadiusOffset: 15,
+  collisionStrength: 0.5,
+  animation: false,
+  fps: 24,
+  alphaStart: 1,
+  velocityDecay: 0.4
 }
 
 NetworkGraph.propTypes = {
   nodes: PropTypes.array,
   links: PropTypes.array,
+  attraceForceStrength: PropTypes.number,
+  chargeStrength: PropTypes.number,
+  collisionRadiusOffset: PropTypes.number,
+  collisionStrength: PropTypes.number,
+  animation: PropTypes.bool,
+  fps: PropTypes.number,
+  alphaStart: PropTypes.number,
+  velocityDecay: PropTypes.number,
   onClick: PropTypes.func,
   onDoubleClick: PropTypes.func
 }
