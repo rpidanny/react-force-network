@@ -80,8 +80,9 @@ class Universe extends Component {
       >
         <g className='links'>
           {
-            links.map(link =>
+            links.map((link, idx) =>
               <Link
+                key={idx}
                 data={link}
                 d={this.getArcPath(link)}
               />
@@ -90,8 +91,9 @@ class Universe extends Component {
         </g>
         <g className='nodes'>
           {
-            nodes.map(node =>
+            nodes.map((node, idx) =>
               <Node
+                key={idx}
                 data={node}
                 onClick={this.props.onClick}
                 onDoubleClick={this.props.onDoubleClick}
