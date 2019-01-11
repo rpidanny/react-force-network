@@ -5,7 +5,7 @@
   "main": "index.jsx",
   "scripts": {
     "start": "webpack-dashboard -- webpack-dev-server --open --progress --inline",
-    "build": "npx webpack --config webpack.config.js",
+    "build": "npx webpack --config webpack-prod.config.js",
     "test": "jest",
     "flow": "flow"
   },
