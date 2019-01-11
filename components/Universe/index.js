@@ -94,9 +94,9 @@ class Universe extends Component {
             nodes.map((node, idx) =>
               <Node
                 key={idx}
-                data={node}
                 onClick={this.props.onClick}
                 onDoubleClick={this.props.onDoubleClick}
+                {...node}
               />
             )
           }
