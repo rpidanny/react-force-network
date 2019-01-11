@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+
 import { scaleOrdinal } from 'd3-scale'
-// import PropTypes from 'prop-types'
+
 import Node from '../Node'
 import Link from '../Link'
 
@@ -106,6 +108,12 @@ Universe.defaultProps = {
   className: 'universe',
   nodes: [],
   links: []
+}
+
+Universe.propTypes = {
+  className: PropTypes.string,
+  nodes: PropTypes.array,
+  links: PropTypes.array
 }
 
 export default Universe
