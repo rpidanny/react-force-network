@@ -97,20 +97,20 @@ class NetworkGraph extends Component {
     simulation
       .force('center', forceCenter(width / 2, height / 2))
       .force('attraceForce', forceManyBody().strength(10))
-      .force('charge', forceManyBody().strength(-30))
+      .force('charge', forceManyBody().strength(-200))
       .force(
         'collision',
         forceCollide()
           .radius(node => node.radius + 15)
-          .strength(0.7)
+          .strength(1)
       )
 
     simulation
-      .alpha(0.4)
+      .alpha(1)
       .alphaTarget(0)
-      .velocityDecay(0.4)
+      .velocityDecay(0.1)
       .restart()
-    // while (simulation.alpha() >= 0.02) {
+    // while (simulation.alpha() >= 0.2) {
     //   simulation.tick()
     // }
   }
