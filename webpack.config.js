@@ -1,6 +1,8 @@
+const path = require('path')
 const webpack = require('webpack')
 const HTMLPlugin = require('html-webpack-plugin')
-const path = require('path')
+const webpackDashboard = require('webpack-dashboard/plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
   context: path.resolve(__dirname, 'examples/basic'),
@@ -55,6 +57,8 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new HTMLPlugin({
       template: 'index.html'
-    })
+    }),
+    new webpackDashboard(),
+    new BundleAnalyzerPlugin()
   ]
 }
