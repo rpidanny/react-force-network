@@ -19,7 +19,13 @@
     "url": "https://github.com/rpidanny/NetworkGraph/issues"
   },
   "homepage": "https://github.com/rpidanny/NetworkGraph#readme",
-  "dependencies": {},
+  "dependencies": {
+    "d3-force": "^2.0.0",
+    "d3-scale": "^2.1.2",
+    "d3-selection": "^1.3.2",
+    "d3-zoom": "^1.7.3",
+    "style-loader": "^0.23.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
