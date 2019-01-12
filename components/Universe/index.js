@@ -80,13 +80,23 @@ class Universe extends Component {
       >
         <g className='links'>
           {
-            links.map((link, idx) =>
-              <Link
-                key={idx}
-                data={link}
-                d={this.getArcPath(link)}
-              />
-            )
+            links.reduce((acc, link, idx) => {
+              if (typeof link.source === 'object' && typeof link.target === 'object') {
+                acc.push(
+                  <Link
+                    key={idx}
+                    data={link}
+                    d={this.getArcPath(link)}
+                    style={link.style}
+                    id={link.id}
+                    type={link.type}
+                    arrowOffset={link.target.radius * 1.45}
+                  />
+                )
+                return acc
+              }
+              return acc
+            }, [])
           }
         </g>
         <g className='nodes'>
