@@ -34,6 +34,10 @@ class NetworkGraph extends Component {
     this.svg = React.createRef()
     this.nodes = []
     this.links = []
+
+    // to timit fps
+    this.interval = (1000 / this.props.fps)
+    this.millis = Date.now()
   }
 
   componentDidMount () {
@@ -133,10 +137,19 @@ class NetworkGraph extends Component {
   }
 
   onTick (e) {
-    this.setState({
-      nodes: this.nodes,
-      links: this.links
-    })
+    // limit rendering
+    const currentTime = Date.now()
+    if (currentTime - this.millis > this.interval) {
+      this.millis = currentTime
+      this.setState({
+        nodes: this.nodes,
+        links: this.links
+      })
+    }
+    // this.setState({
+    //   nodes: this.nodes,
+    //   links: this.links
+    // })
   }
 
   render () {
@@ -178,8 +191,8 @@ NetworkGraph.defaultProps = {
   chargeStrength: -10,
   collisionRadiusOffset: 15,
   collisionStrength: 0.5,
-  animation: false,
-  fps: 24,
+  animation: true,
+  fps: 60,
   alphaStart: 1,
   velocityDecay: 0.4
 }
