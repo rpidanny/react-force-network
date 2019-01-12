@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+
 import { scaleOrdinal } from 'd3-scale'
-// import PropTypes from 'prop-types'
+
 import Node from '../Node'
 import Link from '../Link'
 
@@ -78,21 +80,33 @@ class Universe extends Component {
       >
         <g className='links'>
           {
-            links.map(link =>
-              <Link
-                data={link}
-                d={this.getArcPath(link)}
-              />
-            )
+            links.reduce((acc, link, idx) => {
+              if (typeof link.source === 'object' && typeof link.target === 'object') {
+                acc.push(
+                  <Link
+                    key={idx}
+                    data={link}
+                    d={this.getArcPath(link)}
+                    style={link.style}
+                    id={link.id}
+                    type={link.type}
+                    arrowOffset={link.target.radius * 1.45}
+                  />
+                )
+                return acc
+              }
+              return acc
+            }, [])
           }
         </g>
         <g className='nodes'>
           {
-            nodes.map(node =>
+            nodes.map((node, idx) =>
               <Node
-                data={node}
+                key={idx}
                 onClick={this.props.onClick}
                 onDoubleClick={this.props.onDoubleClick}
+                {...node}
               />
             )
           }
@@ -106,6 +120,12 @@ Universe.defaultProps = {
   className: 'universe',
   nodes: [],
   links: []
+}
+
+Universe.propTypes = {
+  className: PropTypes.string,
+  nodes: PropTypes.array,
+  links: PropTypes.array
 }
 
 export default Universe

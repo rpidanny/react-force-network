@@ -23,7 +23,7 @@ class Node extends Component {
         if (this.props.onClick) {
           this.props.onClick({
             type: 'NODE',
-            data: this.props.data
+            data: this.props.id
           })
         }
       }, 300)
@@ -34,16 +34,23 @@ class Node extends Component {
     if (this.props.onDoubleClick) {
       this.props.onDoubleClick({
         type: 'NODE',
-        data: this.props.data
+        data: this.props.id
       })
     }
   }
 
   render () {
-    const { radius, color, x, y, style } = this.props.data
+    const {
+      className,
+      radius,
+      color,
+      x,
+      y,
+      style
+    } = this.props
     return (
       <g
-        className={this.props.className}
+        className={className}
         transform={`translate(${x},${y})`}
         onClick={this.clickHandler}
         style={{
@@ -64,7 +71,7 @@ class Node extends Component {
 }
 
 const getThumbnail = (props) => {
-  const { id, img, radius, shortText, textStyle } = props.data
+  const { id, img, radius, shortText, textStyle } = props
   if (img) {
     return (
       <g>
@@ -74,7 +81,7 @@ const getThumbnail = (props) => {
           >
             <circle
               r={radius - 1}
-              fill='#fff'
+              // fill={bgColor}
             />
           </clipPath>
         </defs>
@@ -102,16 +109,41 @@ const getThumbnail = (props) => {
 
 Node.defaultProps = {
   className: 'node',
-  radius: '25',
-  color: '#cc3'
+  radius: 35,
+  color: '#FFFFFF',
+  style: {
+    r: 35,
+    stroke: '#375E97',
+    strokeWidth: '3px'
+  },
+  textStyle: {
+    fontSize: 15,
+    fill: '#fff',
+    strokeWidth: '3px',
+    fontWeight: 'normal'
+  }
 }
 
-Node.PropTypes = {
+Node.propTypes = {
   id: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
   text: PropTypes.string,
+  shortText: PropTypes.string,
+  className: PropTypes.string,
+  img: PropTypes.string,
   color: PropTypes.string,
-  radius: PropTypes.string,
-  style: PropTypes.style,
+  radius: PropTypes.number,
+  style: PropTypes.shape({
+    r: PropTypes.number,
+    stroke: PropTypes.string,
+    strokeWidth: PropTypes.string
+  }),
+  textStyle: PropTypes.shape({
+    fontSize: PropTypes.number,
+    fill: PropTypes.string,
+    strokeWidth: PropTypes.string,
+    fontWeight: PropTypes.string
+  }),
   x: PropTypes.number,
   y: PropTypes.number,
   onClick: PropTypes.func,
