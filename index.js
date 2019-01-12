@@ -53,7 +53,7 @@ class NetworkGraph extends Component {
 
   componentWillReceiveProps (newProps) {
     this.setState({
-      ...this.newProps
+      ...newProps
     }, () => {
       this.updateSimulation()
     })
