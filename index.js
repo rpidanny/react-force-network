@@ -155,7 +155,10 @@ class NetworkGraph extends Component {
       simulation.force('cluster', alpha =>
         applyClusterForce(alpha, this.nodes, clusters)
       )
+    } else {
+      simulation.force('cluster', null)
     }
+
     simulation
       .alpha(alphaStart)
       .alphaTarget(0)
