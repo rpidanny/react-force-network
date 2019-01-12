@@ -9,6 +9,8 @@ import {
   forceCollide
 } from 'd3-force'
 import { zoom } from 'd3-zoom'
+import { uniqBy } from 'lodash'
+
 import Universe from './components/Universe'
 // import './style.css'
 
@@ -95,7 +97,9 @@ class NetworkGraph extends Component {
       collisionStrength,
       animation,
       velocityDecay,
-      alphaStart
+      alphaStart,
+      cluster,
+      clusterRadiusScale
     } = this.state
 
     this.nodes = nodes
@@ -132,6 +136,26 @@ class NetworkGraph extends Component {
           .strength(collisionStrength)
       )
 
+    // Enable clustering of nodes of same type
+    if (cluster) {
+      const clusters = {}
+      const nodeTypes = uniqBy(this.nodes, 'type').map(type => type.type)
+
+      nodeTypes.forEach((type, idx, arr) => {
+        if (!clusters[type]) {
+          const radius = width > height ? height * clusterRadiusScale : width * clusterRadiusScale
+          clusters[type] = {
+            x: Math.cos((idx + 1) / arr.length * 2 * Math.PI) * radius + width / 2 + Math.random(),
+            y: Math.sin((idx + 1) / arr.length * 2 * Math.PI) * radius + height / 2 + Math.random(),
+            radius
+          }
+        }
+      })
+
+      simulation.force('cluster', alpha =>
+        applyClusterForce(alpha, this.nodes, clusters)
+      )
+    }
     simulation
       .alpha(alphaStart)
       .alphaTarget(0)
@@ -155,10 +179,6 @@ class NetworkGraph extends Component {
         links: this.links
       })
     }
-    // this.setState({
-    //   nodes: this.nodes,
-    //   links: this.links
-    // })
   }
 
   render () {
@@ -193,6 +213,18 @@ class NetworkGraph extends Component {
   }
 }
 
+// node cluster handler
+const applyClusterForce = (alpha, nodes, clusters) => {
+  nodes.forEach(node => {
+    const cluster = clusters[node.type]
+    if (cluster.x !== node.x && cluster.y !== node.y) {
+      const k = alpha * 0.5
+      node.vx -= (node.x - cluster.x) * k
+      node.vy -= (node.y - cluster.y) * k
+    }
+  })
+}
+
 NetworkGraph.defaultProps = {
   nodes: [],
   links: [],
@@ -201,9 +233,11 @@ NetworkGraph.defaultProps = {
   collisionRadiusOffset: 15,
   collisionStrength: 0.5,
   animation: true,
+  cluster: false,
   fps: 60,
   alphaStart: 1,
-  velocityDecay: 0.4
+  velocityDecay: 0.4,
+  clusterRadiusScale: 2
 }
 
 NetworkGraph.propTypes = {
@@ -218,7 +252,9 @@ NetworkGraph.propTypes = {
   alphaStart: PropTypes.number,
   velocityDecay: PropTypes.number,
   onClick: PropTypes.func,
-  onDoubleClick: PropTypes.func
+  onDoubleClick: PropTypes.func,
+  cluster: PropTypes.bool,
+  clusterRadiusScale: PropTypes.number
 }
 
 export default NetworkGraph
