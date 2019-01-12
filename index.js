@@ -12,7 +12,8 @@ import { zoom } from 'd3-zoom'
 import { uniqBy } from 'lodash'
 
 import Universe from './components/Universe'
-// import './style.css'
+
+import './style.css'
 
 class NetworkGraph extends Component {
   constructor (props) {
@@ -190,8 +191,8 @@ class NetworkGraph extends Component {
       <div
         className='networkGraph'
         style={{
-          height: '100%',
-          width: '100%'
+          width: '100%',
+          height: '100%'
         }}
       >
         <svg
@@ -210,7 +211,7 @@ class NetworkGraph extends Component {
             onDoubleClick={this.props.onDoubleClick}
           />
         </svg>
-        <span className='zoomIndicator'>{parseInt(transform.k * 100, 10)} %</span>
+        {/* <span className='zoomIndicator'>{parseInt(transform.k * 100, 10)} %</span> */}
       </div>
     )
   }
