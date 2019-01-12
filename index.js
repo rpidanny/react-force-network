@@ -51,6 +51,14 @@ class NetworkGraph extends Component {
     })
   }
 
+  componentWillReceiveProps (newProps) {
+    this.setState({
+      ...this.newProps
+    }, () => {
+      this.updateSimulation()
+    })
+  }
+
   initSimulation () {
     const linkForce = forceLink()
       .id(link => link.id)
