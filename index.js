@@ -36,7 +36,7 @@ class NetworkGraph extends Component {
     this.links = []
 
     // to timit fps
-    this.interval = (1000 / this.state.fps)
+    this.interval = (1000 / this.props.fps)
     this.millis = Date.now()
   }
 
