@@ -152,7 +152,9 @@ Node.defaultProps = {
     fill: '#fff',
     strokeWidth: '3px',
     fontWeight: 'normal'
-  }
+  },
+  x: 0,
+  y: 0
 }
 
 Node.propTypes = {
