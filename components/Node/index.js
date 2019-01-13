@@ -8,7 +8,8 @@ class Node extends Component {
     super()
     this.clickHandler = this.clickHandler.bind(this)
     this.doubleClickHandler = this.doubleClickHandler.bind(this)
-
+    this.mouseOverHandler = this.mouseOverHandler.bind(this)
+    this.mouseOutHandler = this.mouseOutHandler.bind(this)
     // for click vs dblclick
     this.clickTimeout = null
   }
@@ -39,6 +40,34 @@ class Node extends Component {
     }
   }
 
+  mouseOverHandler (event, x) {
+    if (this.props.onMouseOver) {
+      this.props.onMouseOver({
+        type: 'NODE',
+        data: {
+          id: this.props.id,
+          text: this.props.text,
+          type: this.props.type
+        },
+        event
+      })
+    }
+  }
+
+  mouseOutHandler (event) {
+    if (this.props.onMouseOut) {
+      this.props.onMouseOut({
+        type: 'NODE',
+        data: {
+          id: this.props.id,
+          text: this.props.text,
+          type: this.props.type
+        },
+        event
+      })
+    }
+  }
+
   render () {
     const {
       className,
@@ -56,6 +85,8 @@ class Node extends Component {
         style={{
           cursor: 'pointer'
         }}
+        onMouseOver={this.mouseOverHandler}
+        onMouseOut={this.mouseOutHandler}
       >
         <circle
           r={radius}
@@ -147,7 +178,9 @@ Node.propTypes = {
   x: PropTypes.number,
   y: PropTypes.number,
   onClick: PropTypes.func,
-  onDoubleClick: PropTypes.func
+  onDoubleClick: PropTypes.func,
+  onMouseOut: PropTypes.func,
+  onMouseOver: PropTypes.func
 }
 
 export default Node

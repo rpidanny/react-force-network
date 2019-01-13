@@ -28,6 +28,14 @@ class NetworkGraph extends Component {
         x: 0,
         y: 0,
         k: 1
+      },
+      tooltip: {
+        text: '',
+        style: {
+          opacity: 0,
+          top: 0,
+          left: 0
+        }
       }
     }
     this.initSimulation = this.initSimulation.bind(this)
@@ -41,6 +49,10 @@ class NetworkGraph extends Component {
     // to timit fps
     this.interval = (1000 / this.props.fps)
     this.millis = Date.now()
+
+    // mouseevents
+    this.mouseOverHandler = this.mouseOverHandler.bind(this)
+    this.mouseOutHandler = this.mouseOutHandler.bind(this)
   }
 
   componentDidMount () {
@@ -185,8 +197,38 @@ class NetworkGraph extends Component {
     }
   }
 
+  mouseOutHandler () {
+    this.setState({
+      tooltip: {
+        style: {
+          opacity: 0
+        }
+      }
+    })
+  }
+
+  mouseOverHandler (payload) {
+    const { event, type, data } = payload;
+    let text = ''
+    if (type === 'NODE') {
+      text = `[${data.type}] ${data.text}`
+    } else if (type === 'LINK') {
+      text = `${data.type}`
+    }
+    this.setState({
+      tooltip: {
+        text,
+        style: {
+          opacity: 1,
+          top: event.clientY + 15,
+          left: event.clientX + 15
+        }
+      }
+    })
+  }
+
   render () {
-    const { nodes, links, transform } = this.state
+    const { nodes, links, transform, tooltip } = this.state
     return (
       <div
         className='networkGraph'
@@ -209,9 +251,17 @@ class NetworkGraph extends Component {
             }
             onClick={this.props.onClick}
             onDoubleClick={this.props.onDoubleClick}
+            onMouseOver={this.mouseOverHandler}
+            onMouseOut={this.mouseOutHandler}
           />
         </svg>
         {/* <span className='zoomIndicator'>{parseInt(transform.k * 100, 10)} %</span> */}
+        <span
+          className='networkGrapTooltip'
+          style={tooltip.style}
+        >
+          {tooltip.text}
+        </span>
       </div>
     )
   }

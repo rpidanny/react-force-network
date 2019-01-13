@@ -106,6 +106,8 @@ class Universe extends Component {
                 key={idx}
                 onClick={this.props.onClick}
                 onDoubleClick={this.props.onDoubleClick}
+                onMouseOver={this.props.onMouseOver}
+                onMouseOut={this.props.onMouseOut}
                 {...node}
               />
             )
@@ -125,7 +127,9 @@ Universe.defaultProps = {
 Universe.propTypes = {
   className: PropTypes.string,
   nodes: PropTypes.array,
-  links: PropTypes.array
+  links: PropTypes.array,
+  onMouseOver: PropTypes.func,
+  onMouseOut: PropTypes.func
 }
 
 export default Universe
