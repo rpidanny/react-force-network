@@ -208,7 +208,7 @@ class NetworkGraph extends Component {
   }
 
   mouseOverHandler (payload) {
-    const { event, type, data } = payload;
+    const { event, type, data } = payload
     let text = ''
     if (type === 'NODE') {
       text = `[${data.type}] ${data.text}`
