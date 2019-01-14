@@ -85,12 +85,12 @@ class Universe extends Component {
                 acc.push(
                   <Link
                     key={idx}
-                    data={link}
                     d={this.getArcPath(link)}
                     style={link.style}
                     id={link.id}
                     type={link.type}
                     arrowOffset={link.target.radius * 1.45}
+                    active={link.active}
                   />
                 )
                 return acc

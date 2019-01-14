@@ -15,20 +15,24 @@ class Node extends Component {
   }
 
   clickHandler () {
-    if (this.clickTimeout) {
-      clearTimeout(this.clickTimeout)
-      this.clickTimeout = null
-      this.doubleClickHandler()
-    } else {
-      this.clickTimeout = setTimeout(() => {
-        if (this.props.onClick) {
-          this.props.onClick({
-            type: 'NODE',
-            data: this.props.id
-          })
-        }
-      }, 300)
-    }
+    this.props.onClick({
+      type: 'NODE',
+      data: this.props.id
+    })
+    // if (this.clickTimeout) {
+    //   clearTimeout(this.clickTimeout)
+    //   this.clickTimeout = null
+    //   this.doubleClickHandler()
+    // } else {
+    //   this.clickTimeout = setTimeout(() => {
+    //     if (this.props.onClick) {
+    //       this.props.onClick({
+    //         type: 'NODE',
+    //         data: this.props.id
+    //       })
+    //     }
+    //   }, 300)
+    // }
   }
 
   doubleClickHandler () {
@@ -75,7 +79,8 @@ class Node extends Component {
       color,
       x,
       y,
-      style
+      style,
+      active
     } = this.props
     return (
       <g
@@ -83,7 +88,8 @@ class Node extends Component {
         transform={`translate(${x},${y})`}
         onClick={this.clickHandler}
         style={{
-          cursor: 'pointer'
+          cursor: 'pointer',
+          opacity: active ? 1 : 0.1
         }}
         onMouseOver={this.mouseOverHandler}
         onMouseOut={this.mouseOutHandler}
@@ -154,7 +160,8 @@ Node.defaultProps = {
     fontWeight: 'normal'
   },
   x: 0,
-  y: 0
+  y: 0,
+  active: true
 }
 
 Node.propTypes = {
@@ -182,7 +189,8 @@ Node.propTypes = {
   onClick: PropTypes.func,
   onDoubleClick: PropTypes.func,
   onMouseOut: PropTypes.func,
-  onMouseOver: PropTypes.func
+  onMouseOver: PropTypes.func,
+  active: PropTypes.bool
 }
 
 export default Node

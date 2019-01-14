@@ -3,9 +3,13 @@ import PropTypes from 'prop-types'
 
 class Link extends Component {
   render () {
-    const { d, pointer, style, id } = this.props
+    const { d, pointer, style, id, active } = this.props
     return (
-      <g>
+      <g
+        style={{
+          opacity: active ? 1 : 0.1
+        }}
+      >
         { getPointer(this.props) }
         <path
           id={id}
@@ -73,7 +77,8 @@ Link.defaultProps = {
     textAnchor: 'middle',
     fill: '#333'
   },
-  pointer: true
+  pointer: true,
+  active: true
 }
 
 Link.propTypes = {
@@ -82,7 +87,8 @@ Link.propTypes = {
   style: PropTypes.object,
   textStyle: PropTypes.object,
   d: PropTypes.string.isRequired,
-  pointer: PropTypes.bool
+  pointer: PropTypes.bool,
+  active: PropTypes.bool
 }
 
 export default Link

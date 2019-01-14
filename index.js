@@ -21,6 +21,8 @@ class NetworkGraph extends Component {
     this.state = {
       nodes: [],
       links: [],
+      selectedNode: null,
+      activeNodes: [],
       simulation: this.initSimulation(),
       width: 100,
       height: 100,
@@ -53,6 +55,10 @@ class NetworkGraph extends Component {
     // mouseevents
     this.mouseOverHandler = this.mouseOverHandler.bind(this)
     this.mouseOutHandler = this.mouseOutHandler.bind(this)
+    this.clickHandler = this.clickHandler.bind(this)
+
+    // graph functions
+    this.getNeighborNodes = this.getNeighborNodes.bind(this)
   }
 
   componentDidMount () {
@@ -227,8 +233,51 @@ class NetworkGraph extends Component {
     })
   }
 
+  clickHandler (event) {
+    if (this.state.selectedNode === event.data) {
+      this.setState({
+        selectedNode: null,
+        activeNodes: []
+      })
+    } else {
+      this.setState({
+        selectedNode: event.data,
+        activeNodes: this.getNeighborNodes(event.data)
+      })
+    }
+  }
+
+  getNeighborNodes (node) {
+    return this.links.reduce(
+      (neighbors, link) => {
+        if (link.target.id === node) {
+          neighbors.push(link.source.id)
+        } else if (link.source.id === node) {
+          neighbors.push(link.target.id)
+        }
+        return neighbors
+      },
+      []
+    )
+  }
+
   render () {
-    const { nodes, links, transform, tooltip } = this.state
+    const { transform, tooltip, selectedNode, activeNodes } = this.state
+
+    // determine opacity of node / link based on if its selected or not
+    const nodes = this.state.nodes.map(node => ({
+      ...node,
+      active: selectedNode === null || node.id === selectedNode || activeNodes.indexOf(node.id) > -1
+    }))
+
+    const links = this.state.links.map(link => ({
+      ...link,
+      active:
+        selectedNode === null
+        || link.source.id === selectedNode
+        || link.target.id === selectedNode
+    }))
+
     return (
       <div
         className='networkGraph'
@@ -249,7 +298,7 @@ class NetworkGraph extends Component {
             transform={
               `translate(${transform.x},${transform.y}) scale(${transform.k})`
             }
-            onClick={this.props.onClick}
+            onClick={this.clickHandler}
             onDoubleClick={this.props.onDoubleClick}
             onMouseOver={this.mouseOverHandler}
             onMouseOut={this.mouseOutHandler}
