@@ -9,7 +9,7 @@ import {
   forceCollide
 } from 'd3-force'
 import { zoom } from 'd3-zoom'
-import { uniqBy } from 'lodash'
+import uniqBy from 'lodash.uniqby'
 
 import Universe from './components/Universe'
 
