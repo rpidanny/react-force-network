@@ -167,7 +167,8 @@ class NetworkGraph extends Component {
       velocityDecay,
       alphaStart,
       cluster,
-      clusterRadiusScale
+      clusterRadiusScale,
+      clusterForceStrength
     } = this.props
     const { simulation, height, width } = this.state
 
@@ -203,7 +204,7 @@ class NetworkGraph extends Component {
       })
 
       simulation.force('cluster', alpha =>
-        applyClusterForce(alpha, this.nodes, clusters)
+        applyClusterForce(alpha, this.nodes, clusters, clusterForceStrength)
       )
     } else {
       simulation.force('cluster', null)
@@ -349,11 +350,11 @@ class NetworkGraph extends Component {
 }
 
 // node cluster handler
-const applyClusterForce = (alpha, nodes, clusters) => {
+const applyClusterForce = (alpha, nodes, clusters, strength) => {
   nodes.forEach(node => {
     const cluster = clusters[node.type]
     if (cluster.x !== node.x && cluster.y !== node.y) {
-      const k = alpha * 0.5
+      const k = alpha * strength
       node.vx -= (node.x - cluster.x) * k
       node.vy -= (node.y - cluster.y) * k
     }
@@ -388,7 +389,8 @@ NetworkGraph.defaultProps = {
   fps: 60,
   alphaStart: 1,
   velocityDecay: 0.4,
-  clusterRadiusScale: 2
+  clusterRadiusScale: 2,
+  clusterForceStrength: 0.3
 }
 
 NetworkGraph.propTypes = {
@@ -405,7 +407,8 @@ NetworkGraph.propTypes = {
   onClick: PropTypes.func,
   onDoubleClick: PropTypes.func,
   cluster: PropTypes.bool,
-  clusterRadiusScale: PropTypes.number
+  clusterRadiusScale: PropTypes.number,
+  clusterForceStrength: PropTypes.number
 }
 
 export default NetworkGraph
