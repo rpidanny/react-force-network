@@ -66,29 +66,41 @@ class NetworkGraph extends Component {
   componentDidMount () {
     this.initZoomHandler()
     this.setState({
-      ...this.props,
       width: this.svg.current.clientWidth,
       height: this.svg.current.clientHeight
     }, () => {
-      this.updateSimulation(1)
+      const updates = diff(this.nodes, this.props.nodes)
+      this.updateData(updates)
+      this.updateSimulation()
     })
   }
 
-  componentWillReceiveProps (newProps) {
-    console.log('Props', newProps)
-    this.setState({
-      ...newProps
-    }, () => {
-      this.interval = (1000 / this.state.fps)
+  componentDidUpdate (prevProps) {
+    this.interval = (1000 / this.props.fps)
+    // should update data?
+    const updates = diff(prevProps.nodes, this.props.nodes)
+    if (updates.added.length > 0 || updates.removed.length > 0) {
+      this.updateData(updates)
+      this.updateSimulation()
+    }
 
-      // should update data?
-      const { nodes } = newProps
-      const updates = diff(this.nodes, nodes)
-      if (updates.added.length > 0 || updates.removed.length > 0) {
-        this.updateData()
-      }
-      this.updateSimulation(0.1)
-    })
+    // should update simulation?
+    if (
+      JSON.stringify({
+        ...prevProps,
+        nodes: null,
+        links: null,
+        children: null
+      }) !==
+      JSON.stringify({
+        ...this.props,
+        nodes: null,
+        links: null,
+        children: null
+      })
+    ) {
+      this.updateSimulation()
+    }
   }
 
   initSimulation () {
@@ -113,10 +125,19 @@ class NetworkGraph extends Component {
     svg.call(zoomHandler).on('dblclick.zoom', null)
   }
 
-  updateData () {
-    const { nodes, links } = this.state
-    this.nodes = nodes
+  updateData (diff) {
+    const { links } = this.props
     this.links = []
+
+    // remove nodes
+    diff.removed.forEach(node => {
+      this.nodes = this.nodes.filter(
+        n => !(n.id === node.id && n.type === node.type)
+      )
+      // context.nodes.splice(context.nodes.indexOf(node))
+    })
+    // add new nodes
+    diff.added.forEach(node => this.nodes.push(node))
 
     // bind nodes to links
     links.forEach(link => {
@@ -136,11 +157,8 @@ class NetworkGraph extends Component {
     })
   }
 
-  updateSimulation (strength) {
+  updateSimulation () {
     const {
-      simulation,
-      width,
-      height,
       attraceForceStrength,
       chargeStrength,
       collisionRadiusOffset,
@@ -150,7 +168,8 @@ class NetworkGraph extends Component {
       alphaStart,
       cluster,
       clusterRadiusScale
-    } = this.state
+    } = this.props
+    const { simulation, height, width } = this.state
 
     simulation
       .nodes(this.nodes)
@@ -191,7 +210,7 @@ class NetworkGraph extends Component {
     }
 
     simulation
-      .alpha(alphaStart * strength)
+      .alpha(alphaStart)
       .alphaTarget(0)
       .velocityDecay(velocityDecay)
       .restart()
@@ -285,9 +304,9 @@ class NetworkGraph extends Component {
     const links = this.state.links.map(link => ({
       ...link,
       active:
-        selectedNode === null
-        || link.source.id === selectedNode
-        || link.target.id === selectedNode
+        selectedNode === null ||
+        link.source.id === selectedNode ||
+        link.target.id === selectedNode
     }))
 
     return (
