@@ -286,6 +286,7 @@ class NetworkGraph extends Component {
           height: '100%'
         }}
       >
+        {this.props.children}
         <svg
           className='svgGraph'
           width='100%'
