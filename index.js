@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import memoize from 'memoize-one'
 import { select, event } from 'd3-selection'
 import {
   forceLink,
@@ -74,6 +75,7 @@ class NetworkGraph extends Component {
   }
 
   componentWillReceiveProps (newProps) {
+    console.log('Props', newProps)
     this.setState({
       ...newProps
     }, () => {
@@ -339,7 +341,7 @@ const applyClusterForce = (alpha, nodes, clusters) => {
   })
 }
 
-const containsNode = (node, nodes) =>
+const containsNode = memoize((node, nodes) =>
   nodes.reduce((acc, n) => {
     if (n.id === node.id) {
       acc.push(n)
@@ -348,11 +350,12 @@ const containsNode = (node, nodes) =>
   }, []).length > 0
     ? 1
     : 0
+)
 
-const diff = (prevNodes, newNodes) => ({
+const diff = memoize((prevNodes, newNodes) => ({
   removed: prevNodes.filter(node => containsNode(node, newNodes) === 0),
   added: newNodes.filter(node => containsNode(node, prevNodes) === 0)
-})
+}))
 
 NetworkGraph.defaultProps = {
   nodes: [],
