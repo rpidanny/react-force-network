@@ -42,6 +42,7 @@ class NetworkGraph extends Component {
     }
     this.initSimulation = this.initSimulation.bind(this)
     this.initZoomHandler = this.initZoomHandler.bind(this)
+    this.updateData = this.updateData.bind(this)
     this.updateSimulation = this.updateSimulation.bind(this)
     this.onTick = this.onTick.bind(this)
     this.svg = React.createRef()
@@ -68,7 +69,7 @@ class NetworkGraph extends Component {
       width: this.svg.current.clientWidth,
       height: this.svg.current.clientHeight
     }, () => {
-      this.updateSimulation()
+      this.updateSimulation(1)
     })
   }
 
@@ -77,7 +78,14 @@ class NetworkGraph extends Component {
       ...newProps
     }, () => {
       this.interval = (1000 / this.state.fps)
-      this.updateSimulation()
+
+      // should update data?
+      const { nodes } = newProps
+      const updates = diff(this.nodes, nodes)
+      if (updates.added.length > 0 || updates.removed.length > 0) {
+        this.updateData()
+      }
+      this.updateSimulation(0.1)
     })
   }
 
@@ -103,24 +111,8 @@ class NetworkGraph extends Component {
     svg.call(zoomHandler).on('dblclick.zoom', null)
   }
 
-  updateSimulation () {
-    const {
-      nodes,
-      links,
-      simulation,
-      width,
-      height,
-      attraceForceStrength,
-      chargeStrength,
-      collisionRadiusOffset,
-      collisionStrength,
-      animation,
-      velocityDecay,
-      alphaStart,
-      cluster,
-      clusterRadiusScale
-    } = this.state
-
+  updateData () {
+    const { nodes, links } = this.state
     this.nodes = nodes
     this.links = []
 
@@ -140,6 +132,24 @@ class NetworkGraph extends Component {
         })
       }
     })
+  }
+
+  updateSimulation (strength) {
+    const {
+      simulation,
+      width,
+      height,
+      attraceForceStrength,
+      chargeStrength,
+      collisionRadiusOffset,
+      collisionStrength,
+      animation,
+      velocityDecay,
+      alphaStart,
+      cluster,
+      clusterRadiusScale
+    } = this.state
+
     simulation
       .nodes(this.nodes)
       .on('tick', this.onTick)
@@ -179,7 +189,7 @@ class NetworkGraph extends Component {
     }
 
     simulation
-      .alpha(alphaStart)
+      .alpha(alphaStart * strength)
       .alphaTarget(0)
       .velocityDecay(velocityDecay)
       .restart()
@@ -328,6 +338,21 @@ const applyClusterForce = (alpha, nodes, clusters) => {
     }
   })
 }
+
+const containsNode = (node, nodes) =>
+  nodes.reduce((acc, n) => {
+    if (n.id === node.id) {
+      acc.push(n)
+    }
+    return acc
+  }, []).length > 0
+    ? 1
+    : 0
+
+const diff = (prevNodes, newNodes) => ({
+  removed: prevNodes.filter(node => containsNode(node, newNodes) === 0),
+  added: newNodes.filter(node => containsNode(node, prevNodes) === 0)
+})
 
 NetworkGraph.defaultProps = {
   nodes: [],
